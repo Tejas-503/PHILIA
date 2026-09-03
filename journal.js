@@ -14,7 +14,7 @@ function openJournalModal(link) {
   journalModalImage.alt = image.alt;
   journalModalIndex.textContent = designLabel;
   journalModalTitle.textContent = "A closer look";
-  journalModalEnquiry.href = `https://wa.me/9619113823?text=${encodeURIComponent(message)}`;
+  journalModalEnquiry.href = `https://wa.me/919619113823?text=${encodeURIComponent(message)}`;
   journalModal.classList.add("is-open");
   journalModal.setAttribute("aria-hidden", "false");
   document.body.classList.add("journal-modal-open");

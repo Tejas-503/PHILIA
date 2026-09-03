@@ -39,7 +39,7 @@ if (heroSlideshow) {
 
 function whatsappUrl(product) {
   const message = `Hi! I'm interested in the ${product.name}. Is it available?`;
-  return `https://wa.me/9619113823?text=${encodeURIComponent(message)}`;
+  return `https://wa.me/919619113823?text=${encodeURIComponent(message)}`;
 }
 
 function renderCards() {
