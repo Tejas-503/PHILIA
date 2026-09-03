@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="PHILIA — considered womenswear for the quietly unforgettable.">
+  <title>PHILIA | Considered Womenswear</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Playfair+Display:ital,wght@0,500;0,600;1,500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="wordmark" href="#top" aria-label="PHILIA home">PHILIA<span class="wordmark-dot">.</span></a>
+    <nav class="site-nav" aria-label="Main navigation">
+      <a href="#story">The story</a>
+      <a href="#collection">Collection</a>
+      <a href="designs.html">Design journal</a>
+    </nav>
+    <a class="header-contact" href="https://wa.me/9619113823" target="_blank" rel="noreferrer">Write to us <span aria-hidden="true">↗</span></a>
+  </header>
+
+  <main id="top">
+    <section class="hero" aria-label="PHILIA introduction">
+      <div class="hero-slideshow" data-hero-slideshow>
+        <div class="hero-slide is-active"><video class="hero-video" autoplay muted loop playsinline preload="metadata"><source src="client reviews.mp4" type="video/mp4"></video></div>
+        <div class="hero-slide"><img class="hero-video" src="designs/WhatsApp Image 2026-09-01 at 2.03.04 PM (2).jpeg" alt="PHILIA collection look"></div>
+        <div class="hero-slide"><img class="hero-video" src="designs/WhatsApp Image 2026-09-01 at 2.03.07 PM (2).jpeg" alt="PHILIA collection detail"></div>
+        <div class="hero-slide"><img class="hero-video" src="designs/WhatsApp Image 2026-09-01 at 2.03.10 PM.jpeg" alt="PHILIA editorial look"></div>
+      </div>
+      <div class="hero-wash"></div>
+      <div class="hero-copy">
+        <p class="eyebrow eyebrow-light">A wardrobe in soft focus</p>
+        <h1>PHILIA<span class="hero-mark">.</span></h1>
+        <p class="hero-tagline">Pieces with a point of view.<br>Made for your everyday becoming.</p>
+        <a class="text-link text-link-light" href="#collection">Discover the collection <span aria-hidden="true">↓</span></a>
+      </div>
+      <p class="hero-credit">Est. 2026 <span></span> Beirut</p>
+      <div class="hero-dots" aria-label="Hero slideshow navigation">
+        <button class="hero-dot is-active" type="button" data-hero-slide="0" aria-label="Show hero video"></button>
+        <button class="hero-dot" type="button" data-hero-slide="1" aria-label="Show hero image one"></button>
+        <button class="hero-dot" type="button" data-hero-slide="2" aria-label="Show hero image two"></button>
+        <button class="hero-dot" type="button" data-hero-slide="3" aria-label="Show hero image three"></button>
+      </div>
+    </section>
+
+    <section class="story section-shell" id="story">
+      <div class="story-heading">
+        <p class="eyebrow">The PHILIA edit</p>
+        <h2>Wear what<br><em>feels like you.</em></h2>
+      </div>
+      <div class="story-gallery">
+        <figure class="story-image story-image-tall">
+          <img src="designs/WhatsApp Image 2026-09-01 at 2.03.03 PM.jpeg" alt="PHILIA collection detail" loading="lazy">
+        </figure>
+        <figure class="story-image story-image-small">
+          <img src="designs/WhatsApp Image 2026-09-01 at 2.03.04 PM (1).jpeg" alt="Softly tailored PHILIA silhouette" loading="lazy">
+        </figure>
+      </div>
+      <div class="story-copy">
+        <p class="story-number">01 <span></span> About the label</p>
+        <p>PHILIA is a small, considered wardrobe for the days that ask you to show up as yourself. We look for the little shifts that make a familiar piece feel new: a softened line, an unexpected hem, a print that stays with you.</p>
+        <p>Designed to be worn often and remembered fondly, each piece is chosen for its quiet character and easy place in your life.</p>
+        <div class="story-actions">
+          <a class="text-link" href="#collection">Explore our pieces <span aria-hidden="true">↗</span></a>
+          <a class="button button-journal" href="designs.html">Explore design journal <span aria-hidden="true">↗</span></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="collection section-shell" id="collection">
+      <div class="collection-intro">
+        <div>
+          <p class="eyebrow">The current collection</p>
+          <h2>Small pieces,<br><em>strong feeling.</em></h2>
+        </div>
+        <p class="collection-note">Nine easy statements<br>for a wardrobe with range.</p>
+      </div>
+      <div class="product-grid" id="product-grid" aria-live="polite"></div>
+    </section>
+
+    <section class="closing-note section-shell">
+      <p class="eyebrow">Come as you are</p>
+      <h2>Find the piece<br><em>that finds you.</em></h2>
+      <a class="button button-dark" href="https://wa.me/9619113823" target="_blank" rel="noreferrer">Talk to PHILIA <span aria-hidden="true">↗</span></a>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-brand"><a class="wordmark" href="#top">PHILIA<span class="wordmark-dot">.</span></a><p>Thoughtfully made pieces<br>from Beirut, with feeling.</p></div>
+    <div class="footer-links"><a href="designs.html">Design journal <span aria-hidden="true">↗</span></a><a href="https://www.instagram.com/philia_byvaishali/" target="_blank" rel="noreferrer">Instagram <span aria-hidden="true">↗</span></a><a href="https://wa.me/9619113823" target="_blank" rel="noreferrer">WhatsApp <span aria-hidden="true">↗</span></a></div>
+    <p class="footer-legal">© 2026 PHILIA. All rights reserved.</p>
+  </footer>
+
+  <div class="modal" id="product-modal" aria-hidden="true" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+    <div class="modal-backdrop" data-close-modal></div>
+    <div class="modal-panel">
+      <button class="modal-close" type="button" aria-label="Close product details" data-close-modal>×</button>
+      <div class="modal-media" id="modal-media"></div>
+      <div class="modal-details">
+        <p class="eyebrow" id="modal-index"></p>
+        <h2 id="modal-title"></h2>
+        <p class="modal-description" id="modal-description"></p>
+        <a class="button button-dark modal-whatsapp" id="modal-whatsapp" href="#" target="_blank" rel="noreferrer">Order on WhatsApp <span aria-hidden="true">↗</span></a>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
