@@ -27,6 +27,12 @@ if (heroSlideshow) {
   const heroDots = document.querySelectorAll("[data-hero-slide]");
   let activeHeroSlide = 0;
 
+  heroSlideshow.querySelectorAll("video").forEach((video) => {
+    const setHeroVideoSpeed = () => { video.playbackRate = 1.5; };
+    setHeroVideoSpeed();
+    video.addEventListener("loadedmetadata", setHeroVideoSpeed);
+  });
+
   function showHeroSlide(index) {
     activeHeroSlide = (index + heroSlides.length) % heroSlides.length;
     heroSlides.forEach((slide, slideIndex) => slide.classList.toggle("is-active", slideIndex === activeHeroSlide));
