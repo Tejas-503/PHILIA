@@ -31,7 +31,7 @@ button { font: inherit; }
 .hero-video { height: 100%; object-fit: cover; position: absolute; width: 100%; }
 .hero-wash { background: linear-gradient(90deg, rgba(24, 55, 40, .54), rgba(24, 55, 40, .06) 65%), linear-gradient(0deg, rgba(24, 55, 40, .3), transparent 45%); inset: 0; position: absolute; }
 .hero-copy { margin-left: 8vw; margin-right: auto; padding: 0; position: relative; text-align: left; text-shadow: 0 2px 8px rgba(0, 0, 0, .35); z-index: 1; }
-.hero-logo { display: block; filter: drop-shadow(0 2px 2px rgba(0, 0, 0, .4)); margin: 0 auto 4px; max-width: min(300px, 58vw); width: 100%; }
+.hero-logo { border: 0; display: block; filter: drop-shadow(0 2px 2px rgba(0, 0, 0, .4)); height: auto; margin: 0 auto 18px; max-width: min(300px, 58vw); width: 100%; }
 .eyebrow { color: var(--gold); font-size: 10px; letter-spacing: .2em; margin: 0 0 17px; text-transform: uppercase; }
 .eyebrow-light { color: var(--gold-light); }
 .hero-bio { color: #ffd09b; font: 500 clamp(16px, 2.4vw, 25px)/1.1 var(--serif); letter-spacing: .1em; margin: 0 0 15px; }
