@@ -1,0 +1,4 @@
+Price - 1500
+Fabric - Crepe Fabric
+Description - Top
+Size - S ,M ,L

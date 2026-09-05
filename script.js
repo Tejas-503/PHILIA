@@ -7,7 +7,18 @@ const products = [
   { name: "Women's Denim Blue Crop Top", price: "800", sizes: "S / M", image: "selling products/6/6.jpeg", video: "selling products/6/6.vid.mp4", description: "Product Name - Women's Denim Blue Crop Top\nPrice - 800\nSize - S / M" },
   { name: "Sleeveless Linen Peplum", price: "1400", sizes: "M / L", image: "selling products/7/7.jpeg", video: "selling products/7/7.vid.mp4", description: "Product Name - Sleeveless Linen Peplum\nPrice - 1400\nSize - M / L" },
   { name: "White Schiffi Embroidered Cotton Top", price: "1400", sizes: "M / L", image: "selling products/8/8.jpeg", video: "selling products/8/8.vid.mp4", description: "Product Name - White Schiffi Embroidered Cotton Top\nPrice - 1400\nSize - M / L" },
-  { name: "Asymmetric Printed Sleeveless Top", price: "800", sizes: "M / L", image: "selling products/9/9.jpeg", video: "selling products/9/9.vid.mp4", description: "Product Name - Asymmetric Printed Sleeveless Top\nPrice - 800\nSize - M / L" }
+  { name: "Side Flap Linen Cotton Top", price: "1200", sizes: "M / L / XL", image: "selling products/10/WhatsApp Image 2026-09-05 at 6.42.16 PM (2).jpeg", images: ["selling products/10/WhatsApp Image 2026-09-05 at 6.42.16 PM (2).jpeg"], description: "Price - 1200\nFabric - Linen Cotton\nDescription - Top\nDetailing - Side Flap\nSize - M / L / XL" },
+  { name: "Pure Cotton Zip-Back Top", price: "750", sizes: "M / L / XL / XXL", image: "selling products/11/WhatsApp Image 2026-09-05 at 6.42.11 PM.jpeg", images: ["selling products/11/WhatsApp Image 2026-09-05 at 6.42.11 PM.jpeg", "selling products/11/WhatsApp Image 2026-09-05 at 6.42.13 PM.jpeg"], description: "Price - 750\nFabric - Pure cotton\nDescription - Top\nDetailing - Zip on back\nSize - M / L / XL / XXL" },
+  { name: "Bohemian Beaded Poncho Dress", price: "1200", sizes: "S / M / L / XL", image: "selling products/12/WhatsApp Image 2026-09-05 at 6.42.10 PM (1).jpeg", images: ["selling products/12/WhatsApp Image 2026-09-05 at 6.42.10 PM (1).jpeg", "selling products/12/WhatsApp Image 2026-09-05 at 6.42.10 PM.jpeg"], description: "Price - 1200\nFabric - Crepe Fabric\nDescription - Poncho Dress\nDetailing - Bohemian look, multi beads and shell lace on sleeves\nSize - S / M / L / XL" },
+  { name: "Cotton Satin Midi Dress", price: "1500", sizes: "M / L / XL", image: "selling products/13/WhatsApp Image 2026-09-05 at 6.42.09 PM (1).jpeg", images: ["selling products/13/WhatsApp Image 2026-09-05 at 6.42.09 PM (1).jpeg", "selling products/13/WhatsApp Image 2026-09-05 at 6.42.09 PM.jpeg"], description: "Price - 1500\nFabric - Cotton Satin\nDescription - Midi Dress\nSize - M / L / XL" },
+  { name: "Modal Tie-Dye Midi Dress", price: "1200", sizes: "S / M / L", image: "selling products/16/WhatsApp Image 2026-09-05 at 6.42.13 PM (1).jpeg", images: ["selling products/16/WhatsApp Image 2026-09-05 at 6.42.13 PM (1).jpeg", "selling products/16/WhatsApp Image 2026-09-05 at 6.42.13 PM (2).jpeg"], description: "Price - 1200\nFabric - Modal Tye & Dye\nDescription - Midi Dress\nDetailing - Crochet lace on waist\nSize - S / M / L" },
+  { name: "Shimmer Crepe Midi Dress", price: "2300", sizes: "S / M", image: "selling products/17/WhatsApp Image 2026-09-05 at 6.42.11 PM (1).jpeg", images: ["selling products/17/WhatsApp Image 2026-09-05 at 6.42.11 PM (1).jpeg", "selling products/17/WhatsApp Image 2026-09-05 at 6.42.14 PM (2).jpeg"], description: "Price - 2300\nFabric - Shimmer Crepe\nDescription - Midi Dress\nDetailing - One sided brooch\nSize - S / M" },
+  { name: "Pleated Collar Floral Top", price: "1500", sizes: "S / M / L", image: "selling products/18/WhatsApp Image 2026-09-05 at 6.42.12 PM (2).jpeg", images: ["selling products/18/WhatsApp Image 2026-09-05 at 6.42.12 PM (2).jpeg", "selling products/18/WhatsApp Image 2026-09-05 at 6.42.15 PM (1).jpeg"], description: "Price - 1500\nFabric - Polyester\nDescription - Floral Print Top\nDetailing - Pleated Collar\nSize - S / M / L" },
+  { name: "Fancy Fabric Cow Print Top", price: "1200", sizes: "M / L / XL", image: "selling products/19/WhatsApp Image 2026-09-05 at 6.42.15 PM (2).jpeg", images: ["selling products/19/WhatsApp Image 2026-09-05 at 6.42.15 PM (2).jpeg"], description: "Price - 1200\nFabric - Fancy Fabric\nDescription - Cow Print Top\nSize - M / L / XL" },
+  { name: "Olive Modal Tunic", price: "1800", sizes: "L / XL / XXL", image: "selling products/20/WhatsApp Image 2026-09-05 at 6.42.16 PM.jpeg", images: ["selling products/20/WhatsApp Image 2026-09-05 at 6.42.16 PM.jpeg"], description: "Price - 1800\nFabric - Modal\nDescription - Olive Tunic\nDetailing - Padded halter neck\nSize - L / XL / XXL" },
+  { name: "Polyester Floral Print Top", price: "1500", sizes: "S / M / L", image: "selling products/21/WhatsApp Image 2026-09-05 at 6.42.16 PM (1).jpeg", images: ["selling products/21/WhatsApp Image 2026-09-05 at 6.42.16 PM (1).jpeg"], description: "Price - 1500\nFabric - Polyester\nDescription - Floral Print Top\nDetailing - Pleated Collar\nSize - S / M / L" },
+  { name: "Crepe Floral Midi Dress", price: "1500", sizes: "S / M / L / XL", image: "selling products/22/WhatsApp Image 2026-09-05 at 6.42.12 PM.jpeg", images: ["selling products/22/WhatsApp Image 2026-09-05 at 6.42.12 PM.jpeg", "selling products/22/WhatsApp Image 2026-09-05 at 6.42.15 PM.jpeg"], description: "Price - 1500\nFabric - Crepe Fabric\nDescription - Midi Dress\nDetailing - Multi beads and shell lace on sleeves\nSize - S / M / L / XL" },
+  { name: "Padded Halter Olive Tunic", price: "1800", sizes: "L / XL / XXL", image: "selling products/23/WhatsApp Image 2026-09-05 at 6.42.12 PM (1).jpeg", images: ["selling products/23/WhatsApp Image 2026-09-05 at 6.42.12 PM (1).jpeg"], description: "Price - 1800\nFabric - Modal\nDescription - Olive Tunic\nDetailing - Padded halter neck\nSize - L / XL / XXL" }
 ];
 
 const grid = document.querySelector("#product-grid");
@@ -48,6 +59,10 @@ function whatsappUrl(product) {
   return `https://wa.me/919619113823?text=${encodeURIComponent(message)}`;
 }
 
+function priceLabel(product) {
+  return `${product.price} + delivery charge`;
+}
+
 function renderCards() {
   grid.innerHTML = products.map((product, index) => `
     <article class="product-card" tabindex="0" data-product="${index}" aria-label="View ${product.name}">
@@ -57,7 +72,7 @@ function renderCards() {
       </div>
       <div class="product-meta">
         <h3>${product.name}</h3>
-        <p>${product.price} <span aria-hidden="true">·</span> ${product.sizes}</p>
+        <p>${priceLabel(product)} <span aria-hidden="true">·</span> ${product.sizes}</p>
       </div>
     </article>
   `).join("");
@@ -74,12 +89,16 @@ function renderCards() {
 }
 
 function renderModalMedia(product) {
+  const mediaItems = [];
+  if (product.video) mediaItems.push(`<div class="modal-slide is-active"><video autoplay muted loop playsinline preload="metadata"><source src="${product.video}" type="video/mp4"></video></div>`);
+  (product.images || [product.image]).forEach((image, index) => {
+    mediaItems.push(`<div class="modal-slide${!product.video && index === 0 ? " is-active" : ""}"><img src="${image}" alt="${product.name} ${index + 1}"></div>`);
+  });
   media.innerHTML = `
-    <div class="modal-slide is-active"><video autoplay muted loop playsinline preload="metadata"><source src="${product.video}" type="video/mp4"></video></div>
-    <div class="modal-slide"><img src="${product.image}" alt="${product.name}"></div>
+    ${mediaItems.join("")}
     <div class="modal-controls">
       <button class="modal-arrow" type="button" data-previous aria-label="Previous image">←</button>
-      <div class="modal-dots" aria-label="Product media navigation"><button class="modal-dot is-active" type="button" data-slide="0" aria-label="Show product video"></button><button class="modal-dot" type="button" data-slide="1" aria-label="Show product image"></button></div>
+      <div class="modal-dots" aria-label="Product media navigation">${mediaItems.map((item, index) => `<button class="modal-dot${index === 0 ? " is-active" : ""}" type="button" data-slide="${index}" aria-label="Show product media ${index + 1}"></button>`).join("")}</div>
       <button class="modal-arrow" type="button" data-next aria-label="Next image">→</button>
     </div>
   `;
@@ -89,7 +108,8 @@ function renderModalMedia(product) {
 }
 
 function showSlide(slideIndex) {
-  activeSlide = (slideIndex + 2) % 2;
+  const slideCount = media.querySelectorAll(".modal-slide").length;
+  activeSlide = (slideIndex + slideCount) % slideCount;
   media.querySelectorAll(".modal-slide").forEach((slide, index) => slide.classList.toggle("is-active", index === activeSlide));
   media.querySelectorAll(".modal-dot").forEach((dot, index) => dot.classList.toggle("is-active", index === activeSlide));
 }
@@ -101,8 +121,8 @@ function openProduct(index) {
   activeSlide = 0;
   const product = products[index];
   modalTitle.textContent = product.name;
-  modalIndex.textContent = `${String(index + 1).padStart(2, "0")} / 09  ·  ${product.price}`;
-  modalDescription.textContent = product.description;
+  modalIndex.textContent = `${String(index + 1).padStart(2, "0")} / ${String(products.length).padStart(2, "0")}  ·  ${priceLabel(product)}`;
+  modalDescription.textContent = product.description.replace(/Price - [^\n]+/, `Price - ${priceLabel(product)}`);
   whatsapp.href = whatsappUrl(product);
   renderModalMedia(product);
   modal.classList.add("is-open");

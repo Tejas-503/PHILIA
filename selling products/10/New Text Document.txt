@@ -1,0 +1,5 @@
+Price - 1200
+Fabric - Linen Cotton
+Description - Top
+Detailing-SideFlap
+Size-M/L/Xl
