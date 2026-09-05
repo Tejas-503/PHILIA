@@ -1,0 +1,4 @@
+Price - 1200
+Fabric - Fancy Fabric
+Description - Cow Print Top
+Size - M ,L ,Xl
