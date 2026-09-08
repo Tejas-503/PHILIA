@@ -152,6 +152,7 @@ body.journal-modal-open { overflow: hidden; }
   .journal-modal-panel { grid-template-columns: minmax(0, 1.25fr) minmax(280px, .75fr); }
 }
 @media (max-width: 699px) {
+  .site-header .wordmark { height: 56px; width: 56px; }
   .journal-modal-panel { grid-template-rows: minmax(0, 1fr) auto; height: min(90vh, 760px); }
   .journal-modal-details { padding: 25px 24px 30px; }
   .journal-modal-details h2 { margin-bottom: 20px; }
